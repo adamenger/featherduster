@@ -12,6 +12,10 @@ cd featherduster
 python setup.py install
 ~~~
 
+`./src/gmpy.h:30:10: fatal error: 'gmp.h' file not found`
+
+If you encounter this missing header error on OSX, please install gmp via brew: `brew install gmp` then retry your installation. 
+
 #Usage
 `python featherduster.py [ciphertext file 1] ... [ciphertext file n]`
 
