@@ -12,6 +12,9 @@ cd featherduster
 python setup.py install
 ~~~
 
+If you encounter this error on OSX, please install gmp:
+```
+
 #Usage
 `python featherduster.py [ciphertext file 1] ... [ciphertext file n]`
 
